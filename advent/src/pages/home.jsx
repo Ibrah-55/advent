@@ -18,7 +18,7 @@ export function Home() {
   return (
     <>
     <div className="h-full w-full ">
-      <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
+      {/* <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
         <div className="absolute top-0 h-full w-full bg-blue-700 " />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
@@ -35,12 +35,42 @@ export function Home() {
                 Material Tailwind. It features multiple components based on the
                 Tailwind CSS and Material Design by Google.
               </Typography>
+              <Button variant="text" className="mt-12 text-yellow-800" ><a href="#Get">Get started</a></Button>
+
             </div>
           </div>
           
         </div>
         
-      </div>
+      </div> */}
+
+<section >
+	<div class="bg-indigo-900 text-yellow-900 py-20">
+		<div class="container mx-auto flex flex-col h-screen md:flex-row items-center my-12 md:my-24">
+			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
+				<h1 class="text-3xl md:text-5xl p-2 text-yellow-300 tracking-loose">TechFest</h1>
+				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Space : The Timeless Infinity
+				</h2>
+				<p class="text-sm md:text-base text-gray-50 mb-4">Explore your favourite events and
+					register now to showcase your talent and win exciting prizes.</p>
+				<a href="#Get"
+					class="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+					Explore Now</a>
+			</div>
+			<div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
+				<div class="h-48 flex flex-wrap content-center">
+					<div>
+						<img class="inline-block mt-28 hidden xl:block" src="https://user-images.githubusercontent.com/54521023/116969935-c13d5b00-acd4-11eb-82b1-5ad2ff10fb76.png" /></div>
+						<div>
+							<img class="inline-block mt-24 md:mt-0 p-8 md:p-0"  src="https://user-images.githubusercontent.com/54521023/116969931-bedb0100-acd4-11eb-99a9-ff5e0ee9f31f.png"/></div>
+							<div>
+								<img class="inline-block mt-28 hidden lg:block" src="https://user-images.githubusercontent.com/54521023/116969939-c1d5f180-acd4-11eb-8ad4-9ab9143bdb50.png"/></div>
+							</div>
+						</div>
+					</div>
+				</div>
+</section>
+
        
           {/* <div className="mt-32 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
@@ -93,12 +123,7 @@ export function Home() {
             </div>
           </div> */}
   
-<div class=" dark:bg-gray-900">
-    <div class=" px-6 py-8 mx-auto">
-      
-        <div class="xl:items-center xl:-mx-8 xl:flex">
-  
-        <div class="  items-center xl:items-center xl:mx-8 xl-flex">
+        <div class="flex flex-col items-center xl:items-center xl:mx-8 xl-flex" id="Get" >
                 <h1 class="text-2xl font-medium text-gray-800 capitalize lg:text-3xl dark:text-white">Our Pricing Plan</h1>
 
                 <div class="mt-4">
@@ -116,6 +141,11 @@ export function Home() {
                     <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
+<div class=" dark:bg-gray-900" >
+  
+    <div class=" px-6 py-8 mx-auto">
+      
+        <div class="xl:items-center xl:-mx-8 xl:flex">
             <div class="flex-1 xl:mx-8" id="readmore">
                 <div class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0">
                     <div class="max-w-sm mx-auto border rounded-lg md:mx-4 dark:border-gray-700">
@@ -678,6 +708,95 @@ export function Home() {
               </Card>
             ))}
           </div>
+
+<div>
+      <section class="text-gray-700">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="text-center mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+              Frequently Asked Question
+            </h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+              The most common questions about how our business works and what
+              can do for you.
+            </p>
+          </div>
+          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            <div class="w-full lg:w-1/2 px-4 py-2">
+              <details class="mb-4">
+                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                  How Long is this site live?
+                </summary>
+
+                <span>
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+              <details class="mb-4">
+                <summary class="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                  Can I install/upload anything I want on there?
+                </summary>
+
+                <span>
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+              <details class="mb-4">
+                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                  How can I migrate to another site?
+                </summary>
+
+                <span>
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+            </div>
+            <div class="w-full lg:w-1/2 px-4 py-2">
+              <details class="mb-4">
+                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                  Can I change the domain you give me?
+                </summary>
+
+                <span class="px-4 py-2">
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+              <details class="mb-4">
+                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                  How many sites I can create at once?
+                </summary>
+
+                <span class="px-4 py-2">
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+              <details class="mb-4">
+                <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                  How can I communicate with you?
+                </summary>
+
+                <span class="px-4 py-2">
+                  Laboris qui labore cillum culpa in sunt quis sint veniam.
+                  Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                  minim velit nostrud pariatur culpa magna in aute.
+                </span>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
           <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>

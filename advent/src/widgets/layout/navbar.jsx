@@ -78,22 +78,21 @@ export function Navbar({ brandName, routes, action }) {
         <IconButton
           variant="text"
           size="sm"
-          color="white"
-          className="ml-auto text-amber hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto text-amber hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden text-yellow-800"
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <XMarkIcon strokeWidth={2} className="h-6 w-6" />
+            <XMarkIcon strokeWidth={2} className="h-6 w-6"  />
           ) : (
             <Bars3Icon strokeWidth={2} className="h-6 w-6" />
           )}
         </IconButton>
       </div>
       <MobileNav
-        className="rounded-xl bg-white px-4 pt-2 pb-4 text-yellow-800"
+        className="rounded-xl bg-white px-4 pt-2 pb-4 text-black"
         open={openNav}
       >
-        <div className="container mx-auto">
+        <div className="container mx-auto ">
           {navList}
           {React.cloneElement(action, {
             className: "hidden lg:inline-block",
