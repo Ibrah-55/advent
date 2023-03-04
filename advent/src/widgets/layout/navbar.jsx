@@ -68,7 +68,7 @@ export function Navbar({ brandName, routes, action }) {
             {brandName}
           </Typography>
         </Link>
-        <div className="hidden  lg:block text-yellow-800">{navList}</div>
+        <div className="hidden  lg:block ">{navList}</div>
         <div className="hidden gap-2 lg:flex">
          
           {React.cloneElement(action, {
