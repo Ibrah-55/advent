@@ -15,7 +15,8 @@ import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
-
+import WhatsAppWidget from "react-whatsapp-chat-widget";
+import "react-whatsapp-chat-widget/index.css";
 
 export function Home() {
   return (
@@ -239,7 +240,7 @@ export function Home() {
                                 </div>
                                 <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
-                            Send us an email
+                        <a href="mailto:kariukiibrahim55@gmail.com">Email Us</a>
                         </span>
                     </button>
                             </div>
@@ -326,7 +327,7 @@ export function Home() {
                                 </div>
                                 <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
-                            Send us an email
+                        <a href="mailto:kariukiibrahim55@gmail.com">Email Us</a>
                         </span>
                     </button>
                             </div>
@@ -415,7 +416,7 @@ export function Home() {
                                 </div>
                                 <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
-                            Send us an email
+                        <a href="mailto:kariukiibrahim55@gmail.com">Email Us</a>
                         </span>
                     </button>
                             </div>
@@ -542,7 +543,7 @@ export function Home() {
                     
                     <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
-                            Send us an email
+                        <a href="mailto:kariukiibrahim55@gmail.com">Email Us</a>
                         </span>
                     </button>
                             </div>
@@ -629,7 +630,7 @@ export function Home() {
                                 </div>
                                 <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
-                            Send us an email
+                        <a href="mailto:kariukiibrahim55@gmail.com">Email Us</a>
                         </span>
                     </button>
                             </div>
@@ -716,7 +717,7 @@ export function Home() {
                                 </div>
                                 <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
-                            Send us an email
+                        <a href="mailto:kariukiibrahim55@gmail.com">Email Us</a>
                         </span>
                     </button>
                             </div>
@@ -818,6 +819,35 @@ export function Home() {
         </div>
       </section>
     </div>
+   <WhatsAppWidget
+			phoneNo="+254707486233"
+			position="right"
+			widgetWidth="300px"
+			widgetWidthMobile="260px"
+			autoOpen={false}
+			autoOpenTimer={5000}
+			messageBox={true}
+			messageBoxTxt="Hello... "
+			iconSize="40"
+			iconColor="white"
+			iconBgColor="green"
+			headerIcon=""
+			headerIconColor="pink"
+			headerTxtColor="black"
+			headerBgColor="green"
+			headerTitle="Advent Films"
+			headerCaption="Online"
+			bodyBgColor="#bbb"
+			chatPersonName="Support Advent Films"
+			chatMessage={<>Hi there 👋
+				<br/>
+				<br/>
+				How can I help you?</>}
+			footerBgColor="#999"
+			btnBgColor=""
+			btnTxtColor="black"
+			btnTxt="Start Chat"
+		/>
 
           <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
@@ -832,6 +862,15 @@ export function Home() {
               Send Message
             </Button>
           </form>
+          <section>
+        <a href="tel:+254707486233">
+          Call
+        </a>
+
+        <a href="sms:+254707486233">
+          Text
+        </a>
+      </section>
         </div>
       </section>
       <div className="bg-blue-gray-50/50">
