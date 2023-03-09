@@ -64,12 +64,27 @@ export function Footer({ title, description, socials, menus, copyright }) {
         </div>
         <hr className="my-6 border-gray-300" />
         <div className="flex flex-wrap items-center justify-center md:justify-between">
+          
           <div className="mx-auto w-full px-4 text-center">
+          <button type="button" class="relative inline-flex items-center px-5 py-2.5 mr-6 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+  <span class="sr-only">Call</span>
+  <a href="sms:+254707486233">
+          Call
+        </a>
+        </button>
+        <section type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+  <span class="sr-only">Notifications</span>
+  <a href="sms:+254707486233">
+          Text
+        </a>
+        </section>
+      
             <Typography
               variant="small"
               className="font-normal text-blue-gray-500"
             >
               {copyright}
+              
             </Typography>
           </div>
         </div>
@@ -107,6 +122,7 @@ Footer.defaultProps = {
     
   ],
   menus: [
+   
     
   ],
   copyright: (

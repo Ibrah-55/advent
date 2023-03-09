@@ -69,12 +69,12 @@ export function Navbar({ brandName, routes, action }) {
           </Typography>
         </Link>
         <div className="hidden  lg:block ">{navList}</div>
-        <div className="hidden gap-2 lg:flex">
+        {/* <div className="hidden gap-2 lg:flex">
          
           {React.cloneElement(action, {
             className: "hidden lg:inline-block",
           })}
-        </div>
+        </div> */}
         <IconButton
           variant="text"
           size="sm"

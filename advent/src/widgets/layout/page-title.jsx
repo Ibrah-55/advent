@@ -14,6 +14,7 @@ export function PageTitle({ heading, children }) {
   );
 }
 
+
 PageTitle.propTypes = {
   heading: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
