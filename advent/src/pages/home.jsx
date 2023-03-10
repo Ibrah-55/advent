@@ -345,9 +345,9 @@ Both Video and Audio save Ksh 60,000                           </p>
 </span>
                                 </div>
                     
-                    <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
+                    <button type="submit" title="Submit" class="block w-max py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
-                        <a href="mailto://kariukiibrahim55@gmail.com?subject = Feedback&body = Message">Email Ussss</a>
+                        <a href="mailto:kariukiibrahim55@gmail.com?subject = Feedback&body = Message">Email Us</a>
                         </span>
                     </button>
                             </div>
@@ -433,8 +433,8 @@ Both Video and Audio save Ksh 10,000                           </p>
 </span>
                                 </div>
 
-                    
-                    <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
+                  
+                                <button type="submit" title="Submit" class="block w-max py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
                         <a href="mailto:kariukiibrahim55@gmail.com?subject = Feedback&body = Message">Email Us</a>
                         </span>
@@ -545,7 +545,8 @@ Both Video and Audio save Ksh 10,000                           </p>
 </span>
                                 </div>
                     
-                    <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
+                    
+                                <button type="submit" title="Submit" class="block w-max py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
                         <a href="mailto:kariukiibrahim55@gmail.com?subject = Feedback&body = Message">Email Us</a>
                         </span>
@@ -678,7 +679,8 @@ Both Video and Audio save Ksh 10,000                           </p>
                                 </div>
 
                     
-                    <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
+                
+                                <button type="submit" title="Submit" class="block w-max py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
                         <a href="mailto:kariukiibrahim55@gmail.com?subject = Feedback&body = Message">Email Us</a>
                         </span>
@@ -757,7 +759,8 @@ Both Video and Audio save Ksh 10,000                           </p>
                                 </div>
 
 
-                    <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
+                     
+                                <button type="submit" title="Submit" class="block w-max py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
                         <a href="mailto:kariukiibrahim55@gmail.com?subject = Feedback&body = Message">Email Us</a>
                         </span>
@@ -837,8 +840,9 @@ Both Video and Audio save Ksh 10,000                           </p>
                                 </div>
 
 
-                               
-                                <button type="submit" title="Submit" class="block w-full py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
+                                
+                     
+                                <button type="submit" title="Submit" class="block w-max py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600">
                         <span class="text-white font-semibold">
                         <a href="mailto:kariukiibrahim55@gmail.com?subject = Feedback&body = Message">Email Us</a>
                         </span>
