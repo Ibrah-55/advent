@@ -28,7 +28,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
             </Typography>
             <button type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center   ">
   <span class="sr-only">Call</span>
-  <a href="sms:+254707486233">
+  <a href="call:+254707486233">
           Call:<i className="text-blue-300">+254705720669</i>
         </a>
         </button>
@@ -84,11 +84,11 @@ export function Footer({ title, description, socials, menus, copyright }) {
               </div>
             ))}
           </div>
-          <Fragment>
-      <Dialog open={open} handler={handleOpen}>
+          
+      <Dialog open={open} handler={handleOpen} className="relative w-full h-full max-w-2xl md:h-auto">
         <DialogHeader>Terms & Conditions</DialogHeader>
         <DialogBody divider>
-<ol>
+<ol >
   <li>1.Cash payments are not allowed. Company will not take responsibility if conned. 
 </li>
   <li>2. Transactions only through Company's CEO or Accountant payable through our playbill or Bank account.
@@ -118,23 +118,16 @@ export function Footer({ title, description, socials, menus, copyright }) {
           >
             <span>Agree</span>
           </Button>
-          <Button
-            variant="text"
-            color="red"
-            onClick={handleOpen}
-            className="mr-1"
-          >
-            <span>Cancel</span>
-          </Button>
+          
           
           
         </DialogFooter>
       </Dialog>
-    </Fragment>
         </div>
         <hr className="my-6 border-gray-300" />
         <div className="flex flex-wrap items-center justify-center md:justify-between">
-          
+        <button onClick={handleOpen} className="text-centerunderline text-blue-800" >Terms & Conditions </button>
+
           <div className="mx-auto w-full px-4 text-center">
         
       
@@ -142,7 +135,6 @@ export function Footer({ title, description, socials, menus, copyright }) {
               variant="small"
               className="font-normal text-blue-gray-500"
             >
-                   <button onClick={handleOpen} className="underline text-blue-800" >Terms & Conditions </button>
                    < br />
 
               {copyright}
@@ -158,7 +150,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
 Footer.defaultProps = {
   title: "Advent Films",
   description:
-    "Connect with us.",
+    "Get In Touch.",
   socials: [
     {
       color: "blue",

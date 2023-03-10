@@ -7,9 +7,10 @@ import {
   Button,
   IconButton,
   Input,
+  Alert,
   Textarea,
 } from "@material-tailwind/react";
-import { UsersIcon } from "@heroicons/react/24/solid";
+import { UsersIcon, CheckCircleIcon } from "@heroicons/react/24/solid";
 import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
@@ -35,9 +36,9 @@ export function Home() {
         
       emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_USER_ID)
       .then((result) => {
-       return success()
+       alert ("Form submitted successfully")
      }, (error) => {
-         console.log(error)
+        alert ("Form Not Submitted")
      });
      e.target.reset();
  };
@@ -1066,8 +1067,8 @@ Both Video and Audio save Ksh 10,000                           </p>
 			btnTxtColor="black"
 			btnTxt="Start Chat"
 		/>
+        
     </div>
-
           <PageTitle heading="Leave a Message">
           <p class="mt-4 font-medium text-gray-500 dark:text-gray-300">
           Are you a choir trainer or singer? Earn by joining our referral program. 
@@ -1084,11 +1085,19 @@ Fill in the form below to join our trainers union. Get a choir and start trainin
                      <Input type="email"  name="reply_to" id="reply_to" variant="standard" size="lg" label="Email Address" />
 </div>
             <Textarea type="text" name="message" id="message" variant="standard" size="sm" label="Message" rows={4} />
+          
+
             <Button type="submit" variant="gradient" size="lg" className="mt-8">
               Send Message
             </Button>
+
+            
           </form>
+
+
           <div>
+
+            
       <section class="text-gray-700">
         <div class="container px-2 py-3 mx-auto">
           <div class="text-center mb-20">
