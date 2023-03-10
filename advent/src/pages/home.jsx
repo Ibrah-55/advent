@@ -934,8 +934,8 @@ Terms and conditions apply.
             >
                 <TwitterShareButton 
                  url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
-                 quote={"Advent Films -- Produce Now, Pay Later"}
-                 hashtag="#Advent Films"
+                 title={"Advent Films -- Produce Now, Pay Later"}
+                 hashtags="#Advent Films"
                  xmlns="http://www.w3.org/2000/svg">
 
               <svg
@@ -979,8 +979,8 @@ Terms and conditions apply.
             >
                 <LinkedinShareButton
                  url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
-                 quote={"Advent Films -- Produce Now, Pay Later"}
-                 hashtag="#Advent Films"
+                 summary={"Advent Films -- Produce Now, Pay Later  "}
+                 Source="Advent Films  "
                  xmlns="http://www.w3.org/2000/svg"
                 >
                 <svg viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="24" height="24">
@@ -996,7 +996,7 @@ Terms and conditions apply.
                 <WhatsappShareButton
                  url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
                 separator={"Advent Films -- Produce Now, Pay Later"}
-                 title="#Advent Films"
+                 title="Advent Films"
                  xmlns="http://www.w3.org/2000/svg"
                 >
                      <svg
@@ -1021,8 +1021,7 @@ Terms and conditions apply.
             >
                 <TelegramShareButton  
                 url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
-                quote={"Advent Films -- Produce Now, Pay Later"}
-                hashtag="#Advent Films"
+                title="Advent Films "
                 xmlns="http://www.w3.org/2000/svg"
                 >
  <svg
