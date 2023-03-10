@@ -26,6 +26,18 @@ export function Footer({ title, description, socials, menus, copyright }) {
             <Typography className="font-normal text-blue-gray-500">
               {description}
             </Typography>
+            <button type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center   ">
+  <span class="sr-only">Call</span>
+  <a href="sms:+254707486233">
+          Call:<i className="text-blue-300">+254705720669</i>
+        </a>
+        </button>
+        <section type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center   ">
+  <span class="sr-only">Notifications</span>
+  <a href="sms:+254707486233">
+          Text: <i className="text-blue-300">+254705720669</i>
+        </a>
+        </section>
             <div className="mx-auto mt-6 mb-8 flex justify-center gap-2 md:mb-0 lg:justify-start">
               {socials.map(({ color, name, path }) => (
                 <a
@@ -124,18 +136,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
         <div className="flex flex-wrap items-center justify-center md:justify-between">
           
           <div className="mx-auto w-full px-4 text-center">
-          <button type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center text-blue-300  ">
-  <span class="sr-only">Call</span>
-  <a href="sms:+254707486233">
-          Call
-        </a>
-        </button>
-        <section type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center text-blue-300  ">
-  <span class="sr-only">Notifications</span>
-  <a href="sms:+254707486233">
-          Text
-        </a>
-        </section>
+        
       
             <Typography
               variant="small"
