@@ -15,14 +15,14 @@ export function Profile() {
       </section>
       <section className="relative bg-blue-gray-50/50 py-16 px-4">
         <div className="container mx-auto">
-          <div className="relative mb-6 -mt-64 flex w-full min-w-0 flex-col break-words rounded-3xl bg-white shadow-xl shadow-gray-500/5">
+          <div className="relative mb-2 -mt-64 flex w-full min-w-0 flex-col break-words rounded-3xl bg-white shadow-xl shadow-gray-500/5">
             <div className="px-6">
               <div className="flex flex-wrap justify-center">
                 <div className="flex w-full justify-center px-4 lg:order-2 lg:w-3/12">
                   <div className="relative">
                     <div className=" flex justify-center mt-2  w-40">
                       <Avatar
-                        src="/img/team-2.jpg"
+                        src="/img/profile.jpeg"
                         alt="Profile picture"
                         variant="circular"
                         className="h-full w-full shadow-xl"
@@ -33,43 +33,40 @@ export function Profile() {
                   </div>
                 </div>
                 <div className="mt-10 flex w-full justify-center px-4 lg:order-3 lg:mt-0 lg:w-4/12 lg:justify-end lg:self-center">
-                  <Button className="bg-blue-400">Conntect</Button>
+                  <Button className="bg-blue-400"><a href="https://api.whatsapp.com/send?phone=+254707486233">Connect</a></Button>
                 </div>
              
               </div>
-              <div className="my-8 text-center">
+              <div className="mt-2 text-center">
                 <Typography variant="h2" color="blue-gray" className="mb-2">
-                  Jenna Stones
-                </Typography>
+Davideo                </Typography>
                 <div className="mb-16 flex items-center justify-center gap-2">
-                  <MapPinIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
+                  <MapPinIcon className=" h-4 w-4 text-blue-gray-700" />
                   <Typography className="font-medium text-blue-gray-700">
-                    Los Angeles, California
+                    Nairobi, Kenya
+                  </Typography>
+                  <br />
+                  <BriefcaseIcon className=" h-4 w-4 text-blue-gray-700" />
+                  <Typography className="font-medium text-blue-gray-700">
+                    Producer  -- Avent Films
                   </Typography>
                 </div>
-                <div className="mb-2 flex items-center justify-center gap-2">
-                  <BriefcaseIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
-                  <Typography className="font-medium text-blue-gray-700">
-                    Solution Manager - Creative Tim Officer
-                  </Typography>
-                </div>
-                <div className="mb-2 flex items-center justify-center gap-2">
+                
+                {/* <div className="mb-2 flex items-center justify-center gap-2">
                   <BuildingLibraryIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
                   <Typography className="font-medium text-blue-gray-700">
                     University of Computer Science
                   </Typography>
-                </div>
+                </div> */}
               </div>
 
               <div className="mb-10 border-t border-blue-gray-50 py-6 text-center">
                 <div className="mt-2 flex flex-wrap justify-center">
                   <div className="flex w-full flex-col items-center px-4 lg:w-9/12">
                     <Typography className="mb-8 font-normal text-blue-gray-500">
-                      An artist of considerable range, Jenna the name taken by
-                      Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                      performs and records all of his own music, giving it a
-                      warm, intimate feel with a solid groove structure. An
-                      artist of considerable range.
+                      David is a music producer with over 7 years of experience in the industry. He has a strong background in music theory, composition, and audio engineering.
+                      In addition to his music production work, he is also a skilled audio engineer. He is proficient in using digital audio workstations (DAWs) 
+                      and audio plugins to create high-quality music recordings. He is also familiar with different audio formats and can optimize recordings for various platforms and devices.
                     </Typography>
                     <Button variant="text">Show more</Button>
                   </div>
