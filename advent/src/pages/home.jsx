@@ -995,8 +995,8 @@ Terms and conditions apply.
             >
                 <WhatsappShareButton
                  url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
-                 quote={"Advent Films -- Produce Now, Pay Later"}
-                 hashtag="#Advent Films"
+                separator={"Advent Films -- Produce Now, Pay Later"}
+                 title="#Advent Films"
                  xmlns="http://www.w3.org/2000/svg"
                 >
                      <svg
