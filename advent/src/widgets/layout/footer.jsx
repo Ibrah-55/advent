@@ -1,9 +1,20 @@
+import { Fragment, useState } from "react";
 import PropTypes from "prop-types";
 import { Typography, IconButton } from "@material-tailwind/react";
-
+import {
+  Button,
+  Dialog,
+  DialogHeader,
+  DialogBody,
+  DialogFooter,
+} from "@material-tailwind/react";
+ 
 const year = new Date().getFullYear();
 
 export function Footer({ title, description, socials, menus, copyright }) {
+  const [open, setOpen] = useState(false);
+ 
+  const handleOpen = () => setOpen(!open);
   return (
     <footer className="relative px-4 pt-8 pb-6">
       <div className="container mx-auto">
@@ -61,18 +72,65 @@ export function Footer({ title, description, socials, menus, copyright }) {
               </div>
             ))}
           </div>
+          <Fragment>
+      <Dialog open={open} handler={handleOpen}>
+        <DialogHeader>Terms & Conditions</DialogHeader>
+        <DialogBody divider>
+<ol>
+  <li>1.Cash payments are not allowed. Company will not take responsibility if conned. 
+</li>
+  <li>2. Transactions only through Company's CEO or Accountant payable through our playbill or Bank account.
+</li>
+
+  <li>3. Fines apply failure to Honor the Contract moreso on PNPL
+</li>
+  <li>4. 5 to 10% on referrals payable immediately the client pays first desposit. 
+</li>
+  <li>5. Backdoor Favors or Transactions with Advent Pictures team is illegal. 
+</li>
+  <li>6.  Free audio albums Must be recorded within the same year and after all payments have been made
+</li>
+  <li>7. Book Atleast 14 to 21 days earlier. 
+</li>
+<li>8. Album listening party provided. 
+</li>
+
+</ol>
+        </DialogBody>
+        <DialogFooter>
+          <Button
+            variant="text"
+            color="green"
+            onClick={handleOpen}
+            className="mr-1"
+          >
+            <span>Agree</span>
+          </Button>
+          <Button
+            variant="text"
+            color="red"
+            onClick={handleOpen}
+            className="mr-1"
+          >
+            <span>Cancel</span>
+          </Button>
+          
+          
+        </DialogFooter>
+      </Dialog>
+    </Fragment>
         </div>
         <hr className="my-6 border-gray-300" />
         <div className="flex flex-wrap items-center justify-center md:justify-between">
           
           <div className="mx-auto w-full px-4 text-center">
-          <button type="button" class="relative inline-flex items-center px-5 py-2.5 mr-6 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <button type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center text-blue-300  ">
   <span class="sr-only">Call</span>
   <a href="sms:+254707486233">
           Call
         </a>
         </button>
-        <section type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <section type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center text-blue-300  ">
   <span class="sr-only">Notifications</span>
   <a href="sms:+254707486233">
           Text
@@ -83,6 +141,9 @@ export function Footer({ title, description, socials, menus, copyright }) {
               variant="small"
               className="font-normal text-blue-gray-500"
             >
+                   <button onClick={handleOpen} className="underline text-blue-800" >Terms & Conditions </button>
+                   < br />
+
               {copyright}
               
             </Typography>
@@ -122,14 +183,14 @@ Footer.defaultProps = {
     
   ],
   menus: [
-   
-    
+
   ],
   copyright: (
     <>
+
       Copyright © {year}{" "}
      
-        Advent Films.
+        Advent Films. 
     </>
   ),
 };

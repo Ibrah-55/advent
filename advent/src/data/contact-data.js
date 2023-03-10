@@ -9,19 +9,19 @@ export const contactData = [
     title: "Excelent Services",
     icon: StarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Advent PNPL ( Produce Now, Pay later). With this plan you don't have to worry about having all the cash to hit the studio.",
   },
   {
     title: "Grow Your Market",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Pay 40% or the principal amount and you're good to go. Balance cleared within 60 to 90 days depending on the plan. .",
   },
   {
     title: "Launch Time",
     icon: RocketLaunchIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Get Things Going. We are glad that you've chosen to work with a team of professional filmmakers from across  world.",
   },
 ];
 
