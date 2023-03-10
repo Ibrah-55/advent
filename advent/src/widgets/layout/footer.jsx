@@ -28,7 +28,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
             </Typography>
             <button type="button" class="relative inline-flex items-center px-5 py-2.5 mr-2 text-sm font-medium text-center   ">
   <span class="sr-only">Call</span>
-  <a href="call:+254707486233">
+  <a href="tel:+254707486233">
           Call:<i className="text-blue-300">+254705720669</i>
         </a>
         </button>
