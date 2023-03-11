@@ -875,7 +875,7 @@ Both Video and Audio save Ksh 10,000                           </p>
               class="border hover:bg-[#1877f2] w-12 h-12 fill-[#1877f2] hover:fill-white border-blue-200 rounded-full flex items-center justify-center shadow-xl hover:shadow-blue-500/50 cursor-pointer"
             >
                 <TwitterShareButton 
-                 url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
+                 url={"http://advent-ibrah-55.vercel.app/"}
                  title={"Advent Films -- Produce Now, Pay Later"}
                  hashtags="#Advent Films"
                  xmlns="http://www.w3.org/2000/svg">
@@ -898,7 +898,7 @@ Both Video and Audio save Ksh 10,000                           </p>
             >
               
               <FacebookShareButton 
-                url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
+                url={"http://advent-ibrah-55.vercel.app/"}
                 quote={"Advent Films -- Produce Now, Pay Later"}
                 hashtag="#Advent Films"
                 xmlns="http://www.w3.org/2000/svg"
@@ -920,7 +920,7 @@ Both Video and Audio save Ksh 10,000                           </p>
               class="border hover:bg-[#bc2a8d] w-12 h-12 fill-[#bc2a8d] hover:fill-white border-pink-200 rounded-full flex items-center justify-center shadow-xl hover:shadow-pink-500/50 cursor-pointer"
             >
                 <LinkedinShareButton
-                 url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
+                 url={"http://advent-ibrah-55.vercel.app/"}
                  summary={"Advent Films -- Produce Now, Pay Later  "}
                  Source="Advent Films  "
                  xmlns="http://www.w3.org/2000/svg"
@@ -936,7 +936,7 @@ Both Video and Audio save Ksh 10,000                           </p>
               class="border hover:bg-[#25D366] w-12 h-12 fill-[#25D366] hover:fill-white border-green-200 rounded-full flex items-center justify-center shadow-xl hover:shadow-green-500/50 cursor-pointer"
             >
                 <WhatsappShareButton
-                 url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
+                 url={"http://advent-ibrah-55.vercel.app/"}
                  title="Advent Films"
                  xmlns="http://www.w3.org/2000/svg"
                 >
@@ -961,7 +961,7 @@ Both Video and Audio save Ksh 10,000                           </p>
               class="border hover:bg-[#229ED9] w-12 h-12 fill-[#229ED9] hover:fill-white border-sky-200 rounded-full flex items-center justify-center shadow-xl hover:shadow-sky-500/50 cursor-pointer"
             >
                 <TelegramShareButton  
-                url={"https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7"}
+                url={"http://advent-ibrah-55.vercel.app/"}
                 title="Advent Films "
                 xmlns="http://www.w3.org/2000/svg"
                 >

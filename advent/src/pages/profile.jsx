@@ -39,7 +39,7 @@ export function Profile() {
               </div>
               <div className="mt-2 text-center">
                 <Typography variant="h2" color="blue-gray" className="mb-2">
-Davideo                </Typography>
+Davideo Rence          </Typography>
                 <div className="mb-16 flex items-center justify-center gap-2">
                   <MapPinIcon className=" h-4 w-4 text-blue-gray-700" />
                   <Typography className="font-medium text-blue-gray-700">
