@@ -1007,7 +1007,7 @@ Both Video and Audio save Ksh 10,000                           </p>
                 setTimeout(() => {
                   setButtonText("Copy");
                 }, 5000);
-                navigator.clipboard.writeText("https://vercel.com/ibrah-55/advent/2P99Bb3qiTLxEDrx5jjMG6gdrVT7");}}
+                navigator.clipboard.writeText("http://advent-ibrah-55.vercel.app/");}}
             class="mx-2 bg-indigo-500 text-white rounded text-sm py-2 px-5 mr-2 hover:bg-indigo-600">
         {buttonText}
             </button>
